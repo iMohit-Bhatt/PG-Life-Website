@@ -1,0 +1,166 @@
+.breadcrumb{
+    background-color: #e5e3e8;
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+
+.breadcrumb ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+}
+
+.breadcrumb ul li{
+    margin-right: 10px;
+    color: #6c757d;
+
+}
+
+.breadcrumb ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4dc7bc	;
+}
+
+.breadcrumb ul li a:hover{
+    color: #358B83;
+    text-decoration: none;
+}
+
+
+/* Section */
+
+.box_city{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+}
+
+.box_content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.filters{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    width: 25px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.icon p{
+    margin-left: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.Prop{
+    width: -webkit-fill-available;
+    padding: 20px;
+}
+
+.prop1{
+    display: flex;
+    box-shadow: 0 0 5px #1c1c1c7a;
+    padding: 15px;
+    margin-bottom: -15px;
+}
+
+.prop1:hover{
+    box-shadow: 0 0 10px #1c1c1c7a;
+}
+
+.prop_detail{
+    width: -webkit-fill-available;
+    padding-left: 30px;
+}
+
+.rating{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.heart, .stars{
+    text-align: center;
+    font-size: 20px;
+}
+.heart p{
+    font-size: 10px;
+}
+
+.stars{
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: red;
+}
+
+.img img{
+    width: 230px;
+}
+
+.prop_name .name{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.address{
+    font-size: 14px;
+    color: grey;
+}
+
+.prop_name img{
+    width: 40px;
+}
+
+.price{
+    width:-webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+}
+
+.money{
+    display: flex;
+    align-items: center;
+}
+
+.money p{
+    font-size: 12px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.view_btn button{
+    width: 150px;
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    background-color: #358B83;
+    border: none;
+
+}
+
+.view_btn button:hover{
+    background-color: #4dc7bc;
+}
